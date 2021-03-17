@@ -21,19 +21,21 @@ function App() {
   return (
     <div className="App">
       Hi. Here's something from the api:
+      <br />
       {apiMessage}
-
+      <br />
+      <br />
       Login:
       <br />
       <a href={'/.auth/login/aad'}>Aad</a>
       <br />
       <a href={'/.auth/login/facebook'}>facebook</a>
       <br />
-      <a href={'/.auth/login/google'}>facebook</a>
+      <a href={'/.auth/login/google'}>google</a>
       <br />
-      <a href={'/.auth/login/github'}>facebook</a>
+      <a href={'/.auth/login/github'}>github</a>
       <br />
-      <a href={'/.auth/logout'}>facebook</a>
+      <a href={'/.auth/logout'}>logout</a>
     </div>
   );
 }
