@@ -22,6 +22,18 @@ function App() {
     <div className="App">
       Hi. Here's something from the api:
       {apiMessage}
+
+      Login:
+      <br />
+      <a href={'/.auth/login/aad'}>Aad</a>
+      <br />
+      <a href={'/.auth/login/facebook'}>facebook</a>
+      <br />
+      <a href={'/.auth/login/google'}>facebook</a>
+      <br />
+      <a href={'/.auth/login/github'}>facebook</a>
+      <br />
+      <a href={'/.auth/logout'}>facebook</a>
     </div>
   );
 }
